@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=Python
+Name=Sesnors Monitor
+Comment=Sensors Monitor
+Exec=awn-applet -p %k
+X-AWN-AppletExec=sensors/sensors.py
+Icon=sensors/sensors
+X-AWN-AppletCategory=Utility
